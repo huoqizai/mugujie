@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="服装  鞋帽  化妆品">
+<meta name="keywords" content="蘑菇街">
+
+<script>
+   changeRem();
+        function changeRem() {
+            var html = document.querySelector('html');
+            var width = html.getBoundingClientRect().width;
+            if( width > 540 ){
+                width = 540;
+            }
+            html.style.fontSize = width / 10 +'px';
+        }
+        window.onresize = changeRem;
+</script>
+<title>七仔-蘑菇街</title>
+ <link rel="stylesheet" href="css/index.css">
+
+ <link rel="stylesheet" href="css/rushBuy.css">
+ <style id="css">
+
+ </style>
+
+</head>
+<body>
+<!--头部-->
+<div id="main">
+<header class="hd-top">
+  <div class="hd-left pw"></div>
+  <div class="hd-search">
+       <div class="icon "></div>
+       <input type="text" class="search" disabled placeholder="连衣裙">
+  </div>
+  <div class="hd-right   pw"></div>
+  </header>
+<!--头部-->
+<!--banner-->
+        <section class="banner">
+              <ul class="pic" id="pic">
+               <!-- <li><a href="#"><img src="img/1-banner/1.jpg" width="100%" height="100%" alt=""></a></li>
+                <li><a href="#"><img src="img/1-banner/2.jpg" width="100%" height="100%" alt=""></a></li>
+                <li><a href="#"><img src="img/1-banner/3.jpg" width="100%" height="100%" alt=""></a></li>-->
+            </ul>
+            <div class="dot">
+                <span class="on"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+        <!--banner-->
+
+         <!--navIcon-->
+        <section class="navIcon">
+            <ul id="navIcon"></ul>
+        </section>
+        <!--navIcon-->
+
+         <!--rushBuy-->
+         <section class='rushBuy'>
+            <div class='rushBuy-t'>
+             <div class="timeFont">19点快抢 · 距结束</div>
+             <div class='class="timeOver"'> <span id="ihour">00</span> : <span id="imin">00</span> : <span id="isec">00</span>  </div>
+              <div href="#" class="more fr"><a href="$"></a></div>
+            </div>
+            <div class="rushBuy-list swiper-container">
+              <ul id='rushBuy' class='clearFix swiper-wrapper'>
+                     <!-- <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/1.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">大理石代替色12色眼影盘</p>
+                            <p class="price">
+                                <span class="originalPrice">￥39</span>
+                                <span class="discount">￥70.00</span>
+                            </p>
+                        </a>
+                    </li>
+                     -->
+              </ul>
+            </div>
+         </section>
+        <!--rushBuy-->
+
+         <!--cheap-->
+         <section class='cheap'>
+             <div class='title'>超实惠-促销直达</div>
+             <div class='con'>
+                <div class='top'>
+                   <div class="top-left">
+                        <p class="mainTitle"> 秒变女王 </p>
+                        <p class="subTitle"> 春装上新抢鲜购 </p>
+                        <div class="bPic"><img src="img/5-cheap/1.png" width="100%" height="100%" alt=""></div>
+                    </div>
+                    <div class="top-right">
+                     <div class="top-r-t clearFix">
+                            <div class="top-r-t-l fl">
+                                <p class="mainTitle">  省心套装  </p>
+                                <p class="subTitle"> 一套搞定约会style </p>
+                            </div>
+                            <div class="top-r-t-r fr"><img src="img/5-cheap/2.png" width="100%" height="100%" alt=""></div>
+                        </div>
+                        <div class="top-r-b">
+                            <div class="top-r-t-l fl">
+                                <p class="mainTitle">  秒变女王  </p>
+                                <p class="subTitle"> 春装上新抢鲜购 </p>
+                            </div>
+                            <div class="top-r-t-r fr"><img src="img/5-cheap/3.png" width="100%" height="100%" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class='bottom'>
+                  <ul>
+                    <li>
+                        <div>
+                                <p class="mainTitle">   早春美鞋   </p>
+                                <p class="subTitle"> 39元任选 </p>
+                        </div>
+                        <div class="img"><img src="img/5-cheap/4.png" width="100%" height="100%" alt=""></div>
+                    </li>
+                     <li>
+                            <a href="">
+                                <div class="">
+                                    <p class="mainTitle">   毛衣卫衣   </p>
+                                    <p class="subTitle"> 初春新款新气象 </p>
+                                </div>
+                                <div class="img"><img src="img/5-cheap/5.png" width="100%" height="100%" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="">
+                                    <p class="mainTitle">   新品男装   </p>
+                                    <p class="subTitle"> 必备时髦单品 </p>
+                                </div>
+                                <div class="img"><img src="img/5-cheap/6.png" width="100%" height="100%" alt=""></div>
+                            </a>
+                        </li>
+                  </ul>
+                </div>
+             </div>
+         </section>
+           <!--hotMarket-->
+          <section class='hotMarket'>
+               <div class="title"></div>
+               <ul id='hotMarket' class="clearFix">
+
+               </ul>
+
+          </section>
+           <!--hotMarket-->
+           <!--like-->
+            <section class='like'>
+               <div class='title'></div>
+               <div class="con">
+                   <ul id="likeList">
+                     <li>
+                          <a href="#">
+                              <div class='pic'>
+                                <img src="img/7-like/1.jpg" width="100%" height="100%" alt="">
+                              </div>
+                              <div class='label'>
+                                 <span>吊带连衣裙</span>
+                                 <span>网纱</span>
+                                 <span>明星同款</span>
+                                 <span>韩版</span>
+                              </div>
+                              <div class='count clearFix'>
+                                <div class="price fl">¥79</div>
+                                <div class="collection fr">
+                                    <div class="num">160</div>
+                                    <div class="icon"><img src="img/7-like/icon.jpg" width="115%" height="115%" alt=""></div>
+                                </div>
+
+                              </div>
+                          </a>
+                     </li>
+                   </ul>
+
+               </div>
+
+            </section>
+            <!--like-->
+              <!--footerNav-->
+        <footer class="footerNav">
+            <a href=""><div>
+                <img src="img/8-bottomNav/1.png" width="100%" height="100%" alt=""></div>
+                <span>首页</span>
+            </a>
+            <a href=""><div>
+                <img src="img/8-bottomNav/2.png" width="100%" height="100%" alt=""></div>
+                <span>分类</span>
+            </a>
+            <a href=""><div>
+                <img src="img/8-bottomNav/3.png" width="100%" height="100%" alt=""></div>
+                <span>购物车</span>
+            </a>
+            <a href=""><div>
+                <img src="img/8-bottomNav/4.png" width="100%" height="100%" alt=""></div>
+                <span>我的</span>
+            </a>
+        </footer>
+        <!--footerNav-->
+
+
+
+
+</div>
+
+ <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js"></script>
+ <script src='js/cssTransform.js'></script>
+    <script>
+         $(document).ready(function () {
+           $.get(
+             'mgData.php',
+             {title:'banner'},
+             function(data){
+               var data = JSON.parse(data);
+               var str ='';
+               data.forEach(function(d){
+                str+='<li><a href="#"><img src="'+d+'"  width="100%" height="100%" alt="" /></a></li>';
+               });
+                  pic.innerHTML = str;
+                  banner()
+             }
+            );
+         })
+function banner() {
+                var oBanner = document.querySelector('.banner');
+                var oPic = oBanner.querySelector('#pic');
+                oPic.innerHTML += oPic.innerHTML;
+
+                var aLi = oPic.querySelectorAll('li');
+                var css = document.querySelector('#css');
+                var aSpan = document.querySelectorAll('.dot span');
+
+                var style = '#pic{width:'+aLi.length+'00%;position:absolute;}';
+                css.innerHTML += style;
+
+                var startPoint = 0;
+                var startX = 0;
+                var timer;
+                var now =0;
+                cssTransform(oPic,'translateX',0);
+                oBanner.addEventListener('touchstart',function (e) {
+                    clearInterval(timer);
+                    oPic.style.transition = '';
+                    var translateX = cssTransform(oPic,'translateX');
+                    now = Math.round(-translateX/oBanner.offsetWidth);
+                    if( now == 0 ){
+                        now = aSpan.length
+                    }
+                    if( now == aLi.length-1 ){
+                        now = aSpan.length-1;
+                    }
+                    cssTransform(oPic,'translateX',-now * oBanner.offsetWidth);
+                    startPoint = e.changedTouches[0].pageX;
+                    startX = cssTransform(oPic,'translateX');
+                }) ;
+                oBanner.addEventListener('touchmove',function(e){
+                    oPic.style.transition = '';
+                    var nowPoint = e.changedTouches[0].pageX;
+                    cssTransform(oPic,'translateX',(nowPoint - startPoint + startX))
+                });
+                oBanner.addEventListener('touchend',function(e){
+                    var translateX = cssTransform(oPic,'translateX')
+                    now = Math.round(-translateX/oBanner.offsetWidth);
+                    tab();
+                    autoPlay();
+                })
+                autoPlay()
+                function autoPlay(){
+                 timer = setInterval(function(){
+                  if(now == aLi.length-1){
+                    now = aSpan.length-1;
+                  }
+                oPic.style.transition = ''
+                cssTransform(oPic,'translateX',-now * oBanner.offsetWidth);
+                setTimeout(function () {
+                            now ++;
+                            tab();
+                        },200)
+              },2500)
+                }
+                function tab(){
+                  oPic.style.transition = '0.5s';
+                  cssTransform(oPic,'translateX',-now * oBanner.offsetWidth);
+                 for( var i=0;i<aSpan.length;i++ ){
+                        aSpan[i].className = '';
+                    }
+                    aSpan[now%aSpan.length].className = 'on';
+
+                }
+
+            }
+           rushBuySwiper();
+            function rushBuySwiper() {
+                var mySwiper = new Swiper('.swiper-container', {
+                    autoplay: true,//可选选项，自动滑动
+                    slidesPerView:4,
+                })
+            }
+            $.ajax({
+              url: 'mgData.php',
+              type: 'GET',
+              dataType: 'json',
+              data: { title:'navIcon'},
+              success:function(data){
+
+                  var str =''
+                  data.forEach(function (d,i) {
+                    str += '<li><a href="#"><div class="img"><img src="'+d.pic+'" width="100%" height="100%" alt=""></div><span class="con">'+d.con+'</span></a></li>'
+                  })
+
+                navIcon.innerHTML = str;
+              }
+            })
+           $.ajax({
+             url: 'mgData.php',
+              type: 'GET',
+              dataType: 'json',
+              data: { title:'rushBuy'},
+            success:function(data){
+              var str =''
+              data.forEach(function(d,i){
+                str+='<li class="swiper-slide">\n'+
+                   '<a href="#">\n'+
+                   '         <div class="img "><img src="'+d.pic+'" width="100%" height="100%" alt=""></div> \n'+
+                    '        <p class="title">'+d.con+'</p>\n'+
+                     '       <p class="price">\n'+
+                       '         <span class="originalPrice">'+d.original+'</span>\n'+
+                       '         <span class="discount">'+d.discount+'</span>\n'+
+                         '   </p>\n'+
+                        '</a>\n'+
+                    '</li>'
+              })
+              rushBuy.innerHTML = str;
+            }
+           });
+         $.get(
+            'mgData.php',
+            {title:'hotMarket'},
+            function(data){
+              var str = '';
+              var data = JSON.parse(data);
+              data.forEach(function (d,i) {
+                str+='<li><a href="">\n'+
+                    '<div><img src="'+d.pic+'" alt="" width="100%" height="100%"></div>\n'+
+                    '<p>'+d.con+'</p>\n'
+                '</a>\n'+
+                '</li>'
+              })
+               hotMarket.innerHTML = str;
+            })
+            $.get(
+                'mgData.php',
+                {
+                    title:'like'
+                },
+                function (data) {
+                    var data = JSON.parse(data);
+                    //console.log( data )
+                    var str = '';
+                    for( var i=0;i<data.length;i++ ){
+                        str += '<li>\n' +
+                            '    <a href="#">\n' +
+                            '        <div class="pic"><img src="'+data[i]['pic']+'" width="100%" height="100%" alt=""></div>\n' +
+                            '        <div class="label">\n' +
+                            '        </div>\n' +
+                            '        <div class="count clearFix">\n' +
+                            '            <div class="price fl">'+data[i]['price']+'</div>\n' +
+                            '            <div class="collection fr">\n' +
+                            '                <div class="num">'+data[i]['collection']+'</div>\n' +
+                            '                <div class="icon"><img src="'+data[i]['collectIcon']+'" width="100%" height="100%" alt=""></div>\n' +
+                            '            </div>\n' +
+                            '        </div>\n' +
+                            '    </a>\n' +
+                            '</li>'
+                    }
+                    likeList.innerHTML = str;
+
+                    for( var i=0;i<data.length;i++ ){
+                        var con = '';
+                        var aLabel = document.getElementsByClassName('label');
+                        for ( var k=0;k<data[i]['label'].length;k++ ){
+                            con += '<span>'+data[i]['label'][k]+'</span>';
+                        }
+                        aLabel[i].innerHTML = con;
+                    }
+                }
+            );
+      // 倒计时
+            $.get(
+                './mgData.php',
+                {
+                    title:'endDate'
+                },
+                function (data) {
+                    var data = JSON.parse(data);
+                    var timer;
+                    //  设置结束时间
+                    var endTime = new Date();
+                    endTime.setFullYear(data.year);
+                    endTime.setMonth(data.mon);
+                    endTime.setDate(data.date);
+                    endTime.setHours(data.hour);
+                    endTime.setMinutes(data.min);
+                    endTime.setSeconds(data.sec);
+
+
+                    changeTime();
+                    function changeTime() {
+                        var nowTime = new Date();
+                        // 获取结束的时间的秒
+                        var sec = (endTime - nowTime.getTime())/1000;
+                        if( sec >0 ){
+                            var hour = Math.floor(sec/60/60); // 时
+                            sec = sec%3600;  // 还剩下多少秒
+                            var min = Math.floor(sec/60);  // 分
+                            sec = Math.floor(sec%60);  // 秒
+
+                            ihour.innerHTML = zero(hour,2);
+                            imin.innerHTML = zero(min,2);
+                            isec.innerHTML = zero(sec,2);
+
+                        }else{
+                            clearInterval(timer);
+                        }
+                    }
+
+                    var timer = setInterval(function () {
+                        changeTime();
+                    },1000);
+
+                    // 补零
+                    function zero(time,n) {
+                        var str = ''+time;
+                        while ( str.length < n ){
+                            str = '0'+time;
+                        }
+                        return str;
+                    }
+
+        });
+
+
+
+
+    </script>
+</body>
+</html>

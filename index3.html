@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        (function () {
+            var html = document.querySelector('html');
+            var width = html.getBoundingClientRect().width;
+            html.style.fontSize = width / 10 +'px';
+        })();
+    </script>
+    <title>16期蘑菇街实战</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style id="css"></style>
+</head>
+<body style="">
+    <div id="main">
+        <!--头部-->
+        <header class="hd-top ">
+            <div class="hd-left  pw"></div>
+            <div class="hd-search ">
+                <div class="icon  "></div>
+                <input type="text" class="search" disabled placeholder="连衣裙">
+            </div>
+            <div class="hd-right   pw"></div>
+        </header>
+        <!--头部-->
+
+        <!--banner-->
+        <section class="banner">
+            <ul class="pic" id="pic">
+                <!--<li><a href="#"><img src="img/1-banner/1.jpg" width="100%" height="100%" alt=""></a></li>-->
+                <!--<li><a href="#"><img src="img/1-banner/2.jpg" width="100%" height="100%" alt=""></a></li>-->
+                <!--<li><a href="#"><img src="img/1-banner/3.jpg" width="100%" height="100%" alt=""></a></li>-->
+            </ul>
+            <div class="dot">
+                <span class="on"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+        <!--banner-->
+
+        <!--navIcon-->
+        <section class="navIcon">
+            <ul id="navIcon"></ul>
+        </section>
+        <!--navIcon-->
+
+        <!--rushBuy-->
+        <section class="rushBuy">
+            <div class="rushBuy-t ">
+                <div class="timeFont">19点快抢 · 距结束</div>
+                <div class="timeOver"> <span id="ihour">00</span> : <span id="imin">00</span> : <span id="isec">00</span> </div>
+                <div href="#" class="more fr"><a href="$"></a></div>
+            </div>
+            <div class="rushBuy-list ">
+                <ul class="clearFix">
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/1.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">大理石代替色12色眼影盘</p>
+                            <p class="price">
+                                <span class="originalPrice">￥39</span>
+                                <span class="discount">￥70.00</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/2.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">御泥坊清透盈润面膜21片</p>
+                            <p class="price">
+                                <span class="originalPrice">￥39</span>
+                                <span class="discount">￥70.00</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/3.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">补水锁水嫩白提亮5件套</p>
+                            <p class="price">
+                                <span class="originalPrice">¥129</span>
+                                <span class="discount">¥378</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/4.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">买一送三DVZ新款朵色气垫</p>
+                            <p class="price">
+                                <span class="originalPrice">￥40</span>
+                                <span class="discount">￥128</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/5.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">防晒喷雾全身隔离保湿补水</p>
+                            <p class="price">
+                                <span class="originalPrice">￥39</span>
+                                <span class="discount">￥118.00</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/6.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">12支天然小麦健康生活</p>
+                            <p class="price">
+                                <span class="originalPrice">￥19</span>
+                                <span class="discount">￥50.00</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/7.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">网红八色大地色眼影盘</p>
+                            <p class="price">
+                                <span class="originalPrice">￥17</span>
+                                <span class="discount">￥38.00</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/8.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">买1送1 补水修护面膜 2瓶</p>
+                            <p class="price">
+                                <span class="originalPrice">￥29</span>
+                                <span class="discount">￥98.00</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/9.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">21片小迷糊玻尿酸补水面膜</p>
+                            <p class="price">
+                                <span class="originalPrice">￥52</span>
+                                <span class="discount">￥239.00</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <div class="img "><img src="img/3-rushBuy/10.jpg" width="100%" height="100%" alt=""></div>
+                            <p class="title">泰国RAY蚕丝面膜补水修复</p>
+                            <p class="price">
+                                <span class="originalPrice">￥42.5</span>
+                                <span class="discount">￥139.00</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--rushBuy-->
+
+        <!--cheap-->
+        <section class="cheap ">
+            <div class="title">超实惠-促销直达</div>
+            <div class="con">
+                <div class="top">
+                    <div class="top-left">
+                        <p class="mainTitle"> 秒变女王 </p>
+                        <p class="subTitle"> 春装上新抢鲜购 </p>
+                        <div class="bPic"><img src="img/5-cheap/1.png" width="100%" height="100%" alt=""></div>
+                    </div>
+                    <div class="top-right">
+                        <div class="top-r-t clearFix">
+                            <div class="top-r-t-l fl">
+                                <p class="mainTitle">  省心套装  </p>
+                                <p class="subTitle"> 一套搞定约会style </p>
+                            </div>
+                            <div class="top-r-t-r fr"><img src="img/5-cheap/2.png" width="100%" height="100%" alt=""></div>
+                        </div>
+                        <div class="top-r-b">
+                            <div class="top-r-t-l fl">
+                                <p class="mainTitle">  秒变女王  </p>
+                                <p class="subTitle"> 春装上新抢鲜购 </p>
+                            </div>
+                            <div class="top-r-t-r fr"><img src="img/5-cheap/3.png" width="100%" height="100%" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li><a href="">
+                            <div class="">
+                                <p class="mainTitle">   早春美鞋   </p>
+                                <p class="subTitle"> 39元任选 </p>
+                            </div>
+                            <div class="img"><img src="img/5-cheap/4.png" width="100%" height="100%" alt=""></div>
+                        </a></li>
+                        <li>
+                            <a href="">
+                                <div class="">
+                                    <p class="mainTitle">   毛衣卫衣   </p>
+                                    <p class="subTitle"> 初春新款新气象 </p>
+                                </div>
+                                <div class="img"><img src="img/5-cheap/5.png" width="100%" height="100%" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="">
+                                    <p class="mainTitle">   新品男装   </p>
+                                    <p class="subTitle"> 必备时髦单品 </p>
+                                </div>
+                                <div class="img"><img src="img/5-cheap/6.png" width="100%" height="100%" alt=""></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--cheap-->
+
+        <!--hotMarket-->
+        <section class="hotMarket">
+            <div class="title"></div>
+            <ul class="clearFix">
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/1.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/2.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/3.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/4.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/5.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/6.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/7.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/8.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/9.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/10.png" alt="" width="100%" height="100%"> </div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/11.png" alt="" width="100%" height="100%"></div>
+                    <<p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/12.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/13.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/14.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/15.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+                <li><a href="">
+                    <div><img src="img/6-hotMarket/16.png" alt="" width="100%" height="100%"></div>
+                    <p>春装上新</p>
+                </a></li>
+            </ul>
+        </section>
+        <!--hotMarket-->
+        <!--like-->
+        <section class="like">
+            <div class="title"></div>
+            <div class="con">
+                <ul id="likeList">
+                    <!--<li>
+                        <a href="#">
+                            <div class="pic"><img src="img/7-like/1.jpg" width="100%" height="100%" alt=""></div>
+                            <div class="label">
+                                <span>吊带连衣裙</span>
+                                <span>网纱</span>
+                                <span>明星同款</span>
+                                <span>韩版</span>
+                            </div>
+                            <div class="count clearFix">
+                                <div class="price fl">¥79</div>
+                                <div class="collection fr">
+                                    <div class="num">555</div>
+                                    <div class="icon"><img src="img/7-like/icon.png" width="100%" height="100%" alt=""></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>-->
+
+                </ul>
+            </div>
+        </section>
+        <!--like-->
+
+        <!--footerNav-->
+        <footer class="footerNav">
+            <a href=""><div>
+                <img src="img/8-bottomNav/1.png" width="100%" height="100%" alt=""></div>
+                <span>首页</span>
+            </a>
+            <a href=""><div>
+                <img src="img/8-bottomNav/2.png" width="100%" height="100%" alt=""></div>
+                <span>分类</span>
+            </a>
+            <a href=""><div>
+                <img src="img/8-bottomNav/3.png" width="100%" height="100%" alt=""></div>
+                <span>购物车</span>
+            </a>
+            <a href=""><div>
+                <img src="img/8-bottomNav/4.png" width="100%" height="100%" alt=""></div>
+                <span>我的</span>
+            </a>
+        </footer>
+        <!--footerNav-->
+    </div>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/cssTransform.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.get(
+                'mgData.php',
+                {
+                    title:'banner'
+                },
+                function (data) {
+                    var data = JSON.parse(data);
+                    var str = '';
+                    data.forEach(function (d) {
+                        str += '<li><a href="#"><img src="'+d+'" width="100%" height="100%" alt=""></a></li>'
+                    })
+                    pic.innerHTML = str;
+                    banner();
+                }
+            );
+
+            function banner() {
+                var oBanner = document.querySelector('.banner');
+                var oPic = oBanner.querySelector('#pic');
+                oPic.innerHTML += oPic.innerHTML;
+
+                var aLi = oPic.querySelectorAll('li');
+                var css = document.querySelector('#css');
+                var aSpan = document.querySelectorAll('.dot span');
+
+                var style = '#pic{width:'+aLi.length+'00%;position:absolute;}';
+                css.innerHTML += style;
+
+                var startPoint = 0;
+                var startX = 0;
+                var timer;
+                var now =0;
+                cssTransform(oPic,'translateX',0);
+                oBanner.addEventListener('touchstart',function (e) {
+                    clearInterval(timer);
+                    oPic.style.transition = '';
+                    var translateX = cssTransform(oPic,'translateX');
+                    now = Math.round(-translateX/oBanner.offsetWidth);
+                    if( now == 0 ){
+                        now = aSpan.length
+                    }
+                    if( now == aLi.length-1 ){
+                        now = aSpan.length-1;
+                    }
+                    cssTransform(oPic,'translateX',-now * oBanner.offsetWidth);
+                    startPoint = e.changedTouches[0].pageX;
+                    startX = cssTransform(oPic,'translateX');
+                })
+
+                oBanner.addEventListener('touchmove',function (e) {
+                    oPic.style.transition = '';
+                    var nowPoint = e.changedTouches[0].pageX;
+                    cssTransform(oPic,'translateX',(nowPoint - startPoint + startX));
+                })
+
+                oBanner.addEventListener('touchend',function (e) {
+                    var translateX = cssTransform(oPic,'translateX');
+                    now = Math.round(-translateX/oBanner.offsetWidth);
+                    tab();
+                    autoPlay();
+                })
+                autoPlay();
+                function autoPlay() {
+                    clearInterval(timer);
+                    timer = setInterval(function () {
+                        if( now == aLi.length-1 ){
+                            now = aSpan.length-1;
+                        }
+                        oPic.style.transition = '';
+                        cssTransform(oPic,'translateX',-now * oBanner.offsetWidth);
+                        setTimeout(function () {
+                            now ++;
+                            tab();
+                        },200)
+
+                    },2500)
+                }
+
+                function tab() {
+                    oPic.style.transition = '0.5s';
+                    cssTransform(oPic,'translateX',-now * oBanner.offsetWidth);
+
+                    for( var i=0;i<aSpan.length;i++ ){
+                        aSpan[i].className = '';
+                    }
+                    aSpan[now%aSpan.length].className = 'on';
+                }
+            }
+
+            $.get(
+                'mgData.php',
+                {
+                    title:'navIcon'
+                },
+                function (data) {
+                    var data = JSON.parse(data);
+                    //console.log( data )
+                    var str = '';
+                    data.forEach(function (d,i) {
+                        str += '<li><a href="#"><div class="img"><img src="'+d.pic+'" width="100%" height="100%" alt=""></div><span class="con">'+d.con+'</span></a></li>'
+                    })
+                    navIcon.innerHTML = str;
+                }
+            );
+
+            $.get(
+                'mgData.php',
+                {
+                    title:'like'
+                },
+                function (data) {
+                    var data = JSON.parse(data);
+                    //console.log( data )
+                    var str = '';
+                    for( var i=0;i<data.length;i++ ){
+                        str += '<li>\n' +
+                            '    <a href="#">\n' +
+                            '        <div class="pic"><img src="'+data[i]['pic']+'" width="100%" height="100%" alt=""></div>\n' +
+                            '        <div class="label">\n' +
+                            '        </div>\n' +
+                            '        <div class="count clearFix">\n' +
+                            '            <div class="price fl">'+data[i]['price']+'</div>\n' +
+                            '            <div class="collection fr">\n' +
+                            '                <div class="num">'+data[i]['collection']+'</div>\n' +
+                            '                <div class="icon"><img src="'+data[i]['collectIcon']+'" width="100%" height="100%" alt=""></div>\n' +
+                            '            </div>\n' +
+                            '        </div>\n' +
+                            '    </a>\n' +
+                            '</li>'
+                    }
+                    likeList.innerHTML = str;
+
+                    for( var i=0;i<data.length;i++ ){
+                        var con = '';
+                        var aLabel = document.getElementsByClassName('label');
+                        for ( var k=0;k<data[i]['label'].length;k++ ){
+                            con += '<span>'+data[i]['label'][k]+'</span>';
+                        }
+                        aLabel[i].innerHTML = con;
+                    }
+                }
+            );
+
+            // 倒计时
+            $.get(
+                'mgData.php',
+                {
+                    title:'endDate'
+                },
+                function (data) {
+                    var data = JSON.parse(data);
+                    var timer;
+                    //  设置结束时间
+                    var endTime = new Date();
+                    endTime.setFullYear(data.year);
+                    endTime.setMonth(data.mon);
+                    endTime.setDate(data.date);
+                    endTime.setHours(data.hour);
+                    endTime.setMinutes(data.min);
+                    endTime.setSeconds(data.sec);
+
+
+                    changeTime();
+                    function changeTime() {
+                        var nowTime = new Date();
+                        // 获取结束的时间的秒
+                        var sec = (endTime - nowTime.getTime())/1000;
+                        if( sec >0 ){
+                            var hour = Math.floor(sec/60/60); // 时
+                            sec = sec%3600;  // 还剩下多少秒
+                            var min = Math.floor(sec/60);  // 分
+                            sec = Math.floor(sec%60);  // 秒
+
+                            ihour.innerHTML = zero(hour,2);
+                            imin.innerHTML = zero(min,2);
+                            isec.innerHTML = zero(sec,2);
+
+                        }else{
+                            clearInterval(timer);
+                        }
+                    }
+
+                    var timer = setInterval(function () {
+                        changeTime();
+                    },1000);
+
+                    // 补零
+                    function zero(time,n) {
+                        var str = ''+time;
+                        while ( str.length < n ){
+                            str = '0'+time;
+                        }
+                        return str;
+                    }
+                }
+            );
+        });
+
+
+        // 正常情况下移动的交互效果 基本上都是用组件完成
+        // 为了提升开发效率，不会自己写
+        // 面试考试
+    </script>
+</body>
+</html>

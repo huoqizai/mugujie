@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Ide
+ * @email   794958215@qq.com
+ * @date    2018-04-17 12:31:00
+ * @version $Id$
+ */
+/*navIcon*/
+.navIcon {
+  font-size: 0.32rem;
+  text-align: center;
+}
+.navIcon ul {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navIcon ul li {
+  width: 20%;
+  height: 1.86666667rem;
+  box-sizing: border-box;
+  margin-top: 0.37333333rem;
+}
+.navIcon ul li .img {
+  width: 1.36rem;
+  height: 1.36rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.navIcon ul li .img img {
+  border-radius: 50%;
+}
+/*navIcon*/

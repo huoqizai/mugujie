@@ -1,0 +1,71 @@
+/*rushBuy*/
+.rushBuy{
+ margin: 20/@rem auto;
+}
+.rushBuy .rushBuy-top{
+  height: 58/@rem;
+  font-size: 28/@rem;
+  line-height: 58/@rem;
+  color: black;
+}
+.rushBuy .rushBuy-t div{
+  float: left;
+  text-indent: 32/@rem;
+}
+.rushBuy .rushBuy-t .timeOver span{
+  display: inline-block;
+  text-indent: 0;
+  width: 40/@rem;
+  height: 40/@rem;
+  line-height: 40/@rem;
+  text-align: center;
+  background: black;
+  color: #fff;
+  border-radius: 5/@rem;
+}
+.rushBuy .rushBuy-t .more{
+  height: 58/@rem;
+  font-size: 24/@rem;
+  text-align: right;
+  flex-basis: 140/@rem;
+  float: right;
+  margin-right: 34/@rem;
+}
+.rushBuy .rushBuy-t .more a{
+  width: 105/@rem;
+  height: 25/@rem;
+  background: url("../img/3-rushBuy/more.png");
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.rushBuy .rushBuy-list{
+  padding-top: 35/@rem!important;
+}
+.rushBuy .rushBuy-list ul{
+  width: 1010%;
+  height: 262/@rem;
+ }
+.rushBuy .rushBuy-list ul li{
+  float: left;
+  width: 202/@rem;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 21/@rem;
+}
+.rushBuy .rushBuy-list ul li a{}
+.rushBuy .rushBuy-list ul li a div.img{
+  width: 112/@rem;
+  height: 152/@rem;
+  margin: 0 auto;
+}
+.rushBuy .rushBuy-list ul li a .title{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 13/@rem auto;
+}
+.rushBuy .rushBuy-list ul li a .discount{
+  font-size: 14/@rem !important;
+  text-decoration: line-through;
+}
+/*rushBuy*/

@@ -1,0 +1,3 @@
+viewport “∆∂Ø∂À  ≈‰  window.onresize = changeRem;  
+$.get()
+http://tanzhouweb.com/mg/mgData.php
