@@ -217,7 +217,7 @@
     <script>
          $(document).ready(function () {
            $.get(
-             'mgData.php',
+             'http://tanzhouweb.com/mg/mgData.php',
              {title:'banner'},
              function(data){
                var data = JSON.parse(data);
@@ -306,7 +306,7 @@ function banner() {
                 })
             }
             $.ajax({
-              url: 'mgData.php',
+              url: 'http://tanzhouweb.com/mg/mgData.php',
               type: 'GET',
               dataType: 'json',
               data: { title:'navIcon'},
@@ -321,7 +321,7 @@ function banner() {
               }
             })
            $.ajax({
-             url: 'mgData.php',
+             url: 'http://tanzhouweb.com/mg/mgData.php',
               type: 'GET',
               dataType: 'json',
               data: { title:'rushBuy'},
@@ -343,7 +343,7 @@ function banner() {
             }
            });
          $.get(
-            'mgData.php',
+            'http://tanzhouweb.com/mg/mgData.php',
             {title:'hotMarket'},
             function(data){
               var str = '';
@@ -358,7 +358,7 @@ function banner() {
                hotMarket.innerHTML = str;
             })
             $.get(
-                'mgData.php',
+                'http://tanzhouweb.com/mg/mgData.php',
                 {
                     title:'like'
                 },
@@ -396,7 +396,7 @@ function banner() {
             );
       // 倒计时
             $.get(
-                './mgData.php',
+                'http://tanzhouweb.com/mg/mgData.php',
                 {
                     title:'endDate'
                 },
